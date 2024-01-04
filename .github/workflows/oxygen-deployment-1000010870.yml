@@ -53,5 +53,4 @@ jobs:
           token: ${{ github.token }}
           environment: 'preview'
           preview_url: ${{ steps.deploy.outputs.url }}
-          description: ${{ github.event.head_commit.message }}
-        
+          description: ${{ github.event.head_commit.message }}git pull origin shopify-add-oxygen-workflow-f46i
